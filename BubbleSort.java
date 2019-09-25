@@ -9,7 +9,7 @@ public class BubbleSort {
 	 * @param size The count of total number of elements in array
 	 **/
 	public static void main(String[] args) {
-		int []datos={1,0,0,0,2,0};
+		int []datos={8,7,6,5,4,9};
 		System.out.println("Datos antes de ejecucion");
 		imprimir (datos);
 		BS(datos, datos.length);
@@ -22,12 +22,12 @@ public class BubbleSort {
 
 			for (int count = 0; count < last-1; count++)
 			{
-				for(int j=0;j<last-count;j++)
-				if (array[count]>array[count+1])
+				for(int j=0;j<last-count-1;j++)
+				if (array[j]>array[j+1])
 				{
-					int temp = array[count];
-					array[count] = array[count + 1];
-					array[count + 1] = temp;
+					int temp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = temp;
 				}
 			}
 	}
