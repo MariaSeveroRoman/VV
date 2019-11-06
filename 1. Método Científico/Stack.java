@@ -128,7 +128,7 @@ public class Stack {
 		System.out.println();
 		
 
-		//ejemplo 4
+		//ejemplo 4 
 		Stack stack4 = new Stack();
 		stack4.push(1);
 		stack4.push(2);
