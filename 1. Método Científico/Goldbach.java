@@ -31,7 +31,7 @@ public class Goldbach {
 	 *            Number to be checked.
 	 * @return True if n can be decomposed as sum of prime numbers, false if
 	 *         not. Also prints the decomposition if true.
-	 */
+	 */ 
 	public static boolean checkGoldbach(Integer n) {
 
 		for (int p = 1; p <= n / 2; p++) {
