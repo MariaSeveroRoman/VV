@@ -32,7 +32,7 @@ public class Stack {
 	 * message and returns -1.
 	 * 
 	 * @return Extracted element.
-	 */
+	 */ 
 	public Integer pull() {
 		if (top <= 0) {
 			System.out.println("The stack is empty");
