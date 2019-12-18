@@ -61,7 +61,7 @@ public class Stack {
 	public Integer[] pull(Integer nElements) {
 		Integer[] res = new Integer[nElements];
 
-		for (int i = nElements - 1; i >= 0; i--) {
+		for (int i = 0; i >= nElements; i++) {
 			res[i] = pull();
 		}
 		return res;
@@ -81,7 +81,8 @@ public class Stack {
 		}
 		return newStack;
 	}
-
+	
+	//Metodos para comprobar resultados
 	public void printStack() {
 		for (int i = 0; i < getSize(); i++) {
 			System.out.println("Elemento " + i + "= " + arrayStack[i]);
