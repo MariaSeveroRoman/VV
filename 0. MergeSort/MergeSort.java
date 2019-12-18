@@ -78,6 +78,5 @@ public class MergeSort {
 	    	System.out.print("Sort: ");
 	    	printArr(arr);
 	    }
-	
 
 }
